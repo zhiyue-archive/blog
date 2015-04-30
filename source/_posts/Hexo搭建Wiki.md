@@ -1,8 +1,8 @@
 title: "Hexo搭建Wiki"
 date: 2015-04-30 04:09:41
 tags:
-	Hexo
-	Wiki
+  - Hexo
+	- Wiki
 ---
 
 
@@ -19,6 +19,7 @@ tags:
 4. 源码放置在Github同一个repos下的source分支下进行版本管理
 5. [Travis CI][5]自动化测试框架自动编译网站
 
+<!--more-->
 
 ##0x02过程：
 
