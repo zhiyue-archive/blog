@@ -6,7 +6,6 @@ tags:
 ---
 
 
-
 - 2015-4-30 第一次编写
 
 
@@ -190,7 +189,7 @@ hexo-server@0.1.2 node_modules\hexo-server
 
 - 下载主题
 
-``` 
+```  
 $ cd Wiki     #切换到Wiki目录
 $ git clone https://github.com/zhiyue/hexo-theme-wixo themes/wixo
 ```
@@ -236,7 +235,7 @@ favicon: /favicon.ico
 
 ```
 $ git submodule add https://github.com/zhiyue/hexo-theme-wixo.git themes/wixo
-``` 
+```    
 
 ![此处输入图片的描述][27]
 
@@ -463,7 +462,7 @@ branches:
     - source    #检测的分支，一旦分支有新的提交就会触发脚本
 
 before_install: #安装前的工作
-- npm install -g hexo-cli 
+- npm install -g hexo-cli   
 
 install:
 #- npm install hexo-renderer-ejs@0.1.0 --save
@@ -472,7 +471,7 @@ install:
 #- npm install hexo-generator-feed@0.2.1 --save
 #- npm install hexo-generator-sitemap@0.2.0 --save
 #- npm install hexo-tag-bootstrap@0.0.6 --save
-- npm install 
+- npm install   
 
 
 script:                         #运行的测试脚本
@@ -500,15 +499,17 @@ after_success:                      #push到github上
 
 ![genertare var][35]
 
-   
+- travis ci 自动化生成与部署
+- 
+![此处输入图片的描述][36]
 
 
 ##0x03 参考：
 
-- [Hexo 3.0 靜態博客使用指南][36]
-- [使用Jekyll在Github上搭建个人博客（将本地博客上传至github）][37]
-- [如何建立一個沒有 Parent 的獨立 Git branch][38]
-- [使用Git将本地代码上传到GitHub][39]
+- [Hexo 3.0 靜態博客使用指南][37]
+- [使用Jekyll在Github上搭建个人博客（将本地博客上传至github）][38]
+- [如何建立一個沒有 Parent 的獨立 Git branch][39]
+- [使用Git将本地代码上传到GitHub][40]
 
 ---
 todo:
@@ -555,7 +556,8 @@ todo:
   [33]: https://travis-ci.org
   [34]: http://7xilqm.com1.z0.glb.clouddn.com/Hexo_wiki/travis.png
   [35]: http://7xilqm.com1.z0.glb.clouddn.com/Hexo_wiki/create_var.png
-  [36]: http://ippotsuko.com/build-your-hexo-blog-3/
-  [37]: http://segmentfault.com/a/1190000000406019
-  [38]: https://ihower.tw/blog/archives/5691
-  [39]: http://blog.csdn.net/u010520912/article/details/18993001
+  [36]: http://7xilqm.com1.z0.glb.clouddn.com/Hexo_wiki/test.png
+  [37]: http://ippotsuko.com/build-your-hexo-blog-3/
+  [38]: http://segmentfault.com/a/1190000000406019
+  [39]: https://ihower.tw/blog/archives/5691
+  [40]: http://blog.csdn.net/u010520912/article/details/18993001
